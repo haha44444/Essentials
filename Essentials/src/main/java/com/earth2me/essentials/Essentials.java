@@ -408,7 +408,7 @@ public class Essentials extends JavaPlugin implements net.ess3.api.IEssentials {
             }
 
             //Potion Meta Provider
-            if (VersionUtil.getServerBukkitVersion().isHigherThanOrEqualTo(VersionUtil.v1_20_5_R01)) {
+            if (VersionUtil.getServerBukkitVersion().isHigherThanOrEqualTo(VersionUtil.v1_20_6_R01)) {
                 potionMetaProvider = new ModernPotionMetaProvider();
             } else if (VersionUtil.getServerBukkitVersion().isLowerThan(VersionUtil.v1_9_R01)) {
                 potionMetaProvider = new PrehistoricPotionMetaProvider();
@@ -417,7 +417,7 @@ public class Essentials extends JavaPlugin implements net.ess3.api.IEssentials {
             }
 
             //Banner Meta Provider
-            if (VersionUtil.getServerBukkitVersion().isHigherThanOrEqualTo(VersionUtil.v1_20_5_R01)) {
+            if (VersionUtil.getServerBukkitVersion().isHigherThanOrEqualTo(VersionUtil.v1_20_6_R01)) {
                 bannerDataProvider = new BaseBannerDataProvider();
             } else {
                 bannerDataProvider = new LegacyBannerDataProvider();
