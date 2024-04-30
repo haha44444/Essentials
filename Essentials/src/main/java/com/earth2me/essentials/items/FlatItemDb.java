@@ -16,7 +16,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.Damageable;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.PotionMeta;
-import org.bukkit.potion.PotionData;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -133,7 +132,7 @@ public class FlatItemDb extends AbstractItemDb {
 
         if (potionData != null && meta instanceof PotionMeta) {
             final PotionMeta potionMeta = (PotionMeta) meta;
-            potionMeta.setBasePotionType(potionData);
+            //todo figure out what to do here potionMeta.setBasePotionType(potionData);
         }
 
         // For some reason, Damageable doesn't extend ItemMeta but CB implements them in the same

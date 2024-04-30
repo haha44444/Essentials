@@ -104,9 +104,7 @@ public class LegacyPotionMetaProvider implements PotionMetaProvider {
 
     @Override
     public void updatePotionStack(ItemStack stack, AbstractPotionData data) {
-        return;
         //todo
-        return;
     }
 
     @Override

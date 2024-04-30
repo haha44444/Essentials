@@ -30,7 +30,6 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.LeatherArmorMeta;
 import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.inventory.meta.SkullMeta;
-import org.bukkit.potion.Potion;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
@@ -548,9 +547,11 @@ public class MetaItemStack {
                         stack.setType(Material.POTION);
                     }
                 } else {
+                    /* todo figure out how to unfuck this code
                     final Potion potion = Potion.fromDamage(stack.getDurability());
                     potion.setSplash(isSplashPotion);
                     potion.apply(stack);
+                     */
                 }
                 resetPotionMeta();
             }

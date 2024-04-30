@@ -50,6 +50,15 @@ public final class MobCompat {
     // Constants for mobs that have changed since earlier versions
     public static final EntityType CAT = getEntityType("CAT", "OCELOT");
     public static final EntityType ZOMBIFIED_PIGLIN = getEntityType("ZOMBIFIED_PIGLIN", "PIG_ZOMBIE");
+    public static final EntityType MOOSHROOM = getEntityType("MOOSHROOM", "MUSHROOM_COW");
+    public static final EntityType SNOW_GOLEM = getEntityType("SNOW_GOLEM", "SNOWMAN");
+    public static final EntityType CHEST_MINECART = getEntityType("CHEST_MINECART", "MINECART_CHEST");
+    public static final EntityType FURNACE_MINECART = getEntityType("FURNACE_MINECART", "MINECART_FURNACE");
+    public static final EntityType TNT_MINECART = getEntityType("TNT_MINECART", "MINECART_TNT");
+    public static final EntityType HOPPER_MINECART = getEntityType("HOPPER_MINECART", "MINECART_HOPPER");
+    public static final EntityType SPAWNER_MINECART = getEntityType("SPAWNER_MINECART", "MINECART_MOB_SPAWNER");
+    public static final EntityType END_CRYSTAL = getEntityType("END_CRYSTAL", "ENDER_CRYSTAL");
+    public static final EntityType FIREWORK_ROCKET = getEntityType("FIREWORK_ROCKET", "FIREWORK");
 
     private MobCompat() {
     }
